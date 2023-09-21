@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+ 
 import './App.css';
 
 function App() {
@@ -17,17 +17,20 @@ function App() {
 
     // it is called fragment
     <>
-    <div className="App">
-      <h1>Hello react...</h1>
-      <h2>My Introduction:</h2>
-      <p>My name is :{myintro.name}.</p>
-      <p>I lived in :{myintro.address}.</p>
-      <p>My roll no is :{myintro.roll}.</p>
-      <p>My passion is :{myintro.passion}.</p>
+    <center>
+    <div className="div1">
+      <h1 id='h11'>Hello react...</h1>
+      <h2 id='h21'>I am learning React js from studytonioght ...</h2>
+      <h2 id='h22'>My Introduction:</h2>
+      <p>My name is : <b>{myintro.name}</b> .</p>
+      <p>I lived in : <b>{myintro.address}</b>.</p>
+      <p>My roll no is : <b>{myintro.roll}</b> .</p>
+      <p>My passion is : <b>{myintro.passion}</b>.</p>
       
 
 
     </div>
+    </center>
     
     </>  //end of fragment 
   );
